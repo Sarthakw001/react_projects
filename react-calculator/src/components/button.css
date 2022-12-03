@@ -1,0 +1,29 @@
+button {
+  border: none;
+  background-color: rgb(80, 60, 209);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(61, 43, 184);
+}
+
+.C {
+  grid-column: 3/1;
+  background-color: rgb(243, 61, 29);
+}
+.C:hover {
+  background-color: rgb(228, 39, 15);
+}
+
+.equals {
+  grid-column: 3/5;
+  background-color: rgb(80, 60, 209);
+}
+
+.equals:hover {
+  background-color: rgb(61, 43, 184);
+}

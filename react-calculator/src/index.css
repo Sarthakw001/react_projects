@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+  0deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(246deg 32% 30%) 5%,
+  hsl(256deg 15% 33%) 10%,
+  hsl(315deg 4% 36%) 14%,
+  hsl(32deg 10% 40%) 19%,
+  hsl(43deg 17% 42%) 24%,
+  hsl(47deg 23% 44%) 29%,
+  hsl(49deg 28% 45%) 33%,
+  hsl(50deg 32% 47%) 38%,
+  hsl(51deg 37% 48%) 43%,
+  hsl(51deg 41% 49%) 48%,
+  hsl(52deg 45% 50%) 52%,
+  hsl(52deg 50% 51%) 57%,
+  hsl(53deg 56% 52%) 62%,
+  hsl(53deg 61% 52%) 67%,
+  hsl(53deg 67% 53%) 71%,
+  hsl(54deg 73% 53%) 76%,
+  hsl(54deg 78% 54%) 81%,
+  hsl(54deg 84% 54%) 86%,
+  hsl(54deg 89% 54%) 90%,
+  hsl(55deg 95% 53%) 95%,
+  hsl(55deg 100% 50%) 100%
+);
+}

@@ -1,0 +1,107 @@
+.displayweather {
+  width: 80%;
+  height: 80%;
+  /* border: 1px solid black; */
+}
+.city-info{
+    /* border: 1px solid black; */
+    font-size: 38px;
+    text-align: center;
+}
+
+
+.date{
+    font-size: 13px;
+}
+
+
+
+.info{
+    display: flex;
+}
+
+table.paleBlueRows {
+    /* font-family: "Times New Roman", Times, serif; */
+    /* border: 1px solid #FFFFFF; */
+    width: 350px;
+    height: 250px;
+    border-collapse: collapse;
+  }
+  table.paleBlueRows  {
+    /* border: 1px solid #FFFFFF; */
+    padding: 30px 10px;
+  }
+  table.paleBlueRows tbody td {
+    font-size: 24px;
+  }
+  
+
+  @media only screen and (max-width: 840px) {
+    .info{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .displayweather {
+      width: 250px;
+      margin-top: 42px;
+      /* border: 1px solid black; */
+    }
+    table.paleBlueRows {
+      /* font-family: "Times New Roman", Times, serif; */
+      /* border: 1px solid #FFFFFF; */
+      width: 250px;
+      height: 250px;
+      border-collapse: collapse;
+    }
+    table.paleBlueRows  {
+      /* border: 1px solid #FFFFFF; */
+      padding: 30px 10px;
+    }
+    table.paleBlueRows tbody td {
+      font-size: 18px;
+    }
+    .error{
+      margin-top: 55px;
+    
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .info{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .displayweather {
+      width: 350px;
+      margin-top: 45px;
+      /* font-size: 15px; */
+      /* border: 1px solid black; */
+    }
+    .city-info{
+      /* border: 1px solid black; */
+      font-size: 28px;
+      text-align: center;
+  }
+  
+table.paleBlueRows {
+  /* font-family: "Times New Roman", Times, serif; */
+  /* border: 1px solid #FFFFFF; */
+  width: 250px;
+  height: 250px;
+  border-collapse: collapse;
+}
+table.paleBlueRows  {
+  /* border: 1px solid #FFFFFF; */
+  padding: 30px 10px;
+}
+table.paleBlueRows tbody td {
+  font-size: 18px;
+}
+.error{
+  margin-top: 55px;
+
+}
+}

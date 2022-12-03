@@ -1,0 +1,36 @@
+.instruction{
+    width: 80%;
+    height: 30%;
+    /* border: 1px solid black ; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.h{
+    font-size: 45px;
+}
+
+.list{
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .instruction {
+        margin-top: 80px;
+        width: 35%px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h{
+        font-size: 35px;
+    }
+    
+    .list{
+        font-size: 15px;
+    }
+  }
