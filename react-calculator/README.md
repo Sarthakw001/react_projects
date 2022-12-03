@@ -10,6 +10,4 @@
 
 3. User friendly
 
-
-
 ![Capture](Capture.PNG)
